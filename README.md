@@ -27,4 +27,6 @@ Using config.json
   * Use confluence chart macro and html table for page body
   * Update page body and title by Page ID
   
- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+ ![example chart output](https://github.com/rajdor/pythonConfluenceExamples/blob/master/updateChart.png?raw=true)
+ 
+ 
