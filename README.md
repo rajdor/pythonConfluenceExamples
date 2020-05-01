@@ -19,6 +19,7 @@
  contents=confluence.get_page_by_id(pageID, expand="body.storage,version", status="current")
  ```
 
+## Example config
 Using config.json
    ```json
 {
