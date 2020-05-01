@@ -14,7 +14,10 @@
       or (depending on your server configuration) 
       http://192.168.1.224:8090/confluence/rest/api/content/10256402?expand=body.storage 
  ````
- * Option 2, copy and modify the included script updatePage.py to print the returned values from contents=confluence.get_page_by_id(pageID, expand="body.storage,version", status="current")
+ * Option 2, copy and modify the included script updatePage.py to print the returned values from the following snippet
+ ```
+ contents=confluence.get_page_by_id(pageID, expand="body.storage,version", status="current")
+ ```
 
 Using config.json
    ```json
